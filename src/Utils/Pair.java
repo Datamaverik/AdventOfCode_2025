@@ -1,4 +1,4 @@
-package Day2;
+package Utils;
 
 public class Pair {
     public long l, r;

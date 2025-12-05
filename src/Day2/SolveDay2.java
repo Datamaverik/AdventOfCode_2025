@@ -1,5 +1,7 @@
 package Day2;
 
+import Utils.Pair;
+
 import java.util.Scanner;
 
 public class SolveDay2 {

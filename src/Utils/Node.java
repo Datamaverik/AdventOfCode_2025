@@ -1,4 +1,4 @@
-package Day4;
+package Utils;
 
 public class Node {
     public int i;

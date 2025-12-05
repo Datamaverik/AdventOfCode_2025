@@ -1,6 +1,6 @@
 package Day5;
 
-import Day2.Pair;
+import Utils.Pair;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,5 +1,7 @@
 package Day4;
 
+import Utils.Node;
+
 import java.util.*;
 
 public class SolveDay4 {

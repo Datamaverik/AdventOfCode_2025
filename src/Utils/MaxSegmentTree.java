@@ -1,4 +1,4 @@
-package Day3;
+package Utils;
 
 public class MaxSegmentTree {
     public long[] num;

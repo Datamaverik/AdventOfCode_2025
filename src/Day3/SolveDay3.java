@@ -1,5 +1,7 @@
 package Day3;
 
+import Utils.MaxSegmentTree;
+
 import java.util.Scanner;
 
 public class SolveDay3 {
