@@ -36,6 +36,8 @@ java src.DayX.Part2
 
 ## Goals of the Challenge
 
+- Learn new Programming language (Java)
+
 - Improve problem-solving
 
 - Practice algorithms & data structures
