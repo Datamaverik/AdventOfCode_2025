@@ -14,11 +14,11 @@ public class SolveDay6 {
     private static ArrayList<Pair> ranges = new ArrayList<>();
     private static int row;
     private static int col;
-    private static int dig = 0;
 
     public static void main(String[] args) {
         readInput();
         long ans1 = part1();
+        processInput();
         long ans2 = part2();
         System.out.println(ans1 + " " + ans2);
     }
@@ -31,26 +31,23 @@ public class SolveDay6 {
             input = input.trim();
             if(input.equals("end"))
                 break;
-            if(input.isEmpty())
-                break;
             String[] row = input.split("\\s+");
-            for(String num: row)
-                dig = Math.max(dig, num.length());
             ArrayList<String> x = new ArrayList<>();
             Collections.addAll(x, row);
             nums.add(x);
         }
         row = nums.size();
         col = nums.getFirst().size();
+    }
 
+    public static void processInput() {
         ranges = new ArrayList<>();
         for(int j = 0; j < col; j++)
             ranges.add(new Pair(Long.MAX_VALUE, Long.MIN_VALUE));
 
         for(int i = 0; i < row - 1; i++) {
             long l, r = 0;
-            int j = 0;
-            while(j < col) {
+            for(int j = 0; j < col; j++) {
                 while(r < given.get(i).length() && given.get(i).charAt((int) r) == ' ')
                     r++;
                 if(r >= given.get(i).length())
@@ -63,7 +60,6 @@ public class SolveDay6 {
                 r = Math.min(r, given.get(i).length());
                 ranges.get(j).l = Math.min(l, ranges.get(j).l);
                 ranges.get(j).r = Math.max(r,  ranges.get(j).r);
-                j++;
             }
         }
     }
