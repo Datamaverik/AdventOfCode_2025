@@ -4,7 +4,7 @@ public class MaxSegmentTree {
     public long[] num;
     private final long[] seg;
 
-    MaxSegmentTree(int size, long[] arr) {
+    public MaxSegmentTree(int size, long[] arr) {
         num = arr;
         seg = new long[4 * size];
     }

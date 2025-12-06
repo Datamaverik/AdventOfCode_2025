@@ -5,7 +5,7 @@ public class Node {
     public int j;
     public int count;
 
-    Node(int i, int j, int count) {
+    public Node(int i, int j, int count) {
         this.i = i;
         this.j = j;
         this.count = count;
