@@ -77,6 +77,9 @@ java src.DayX.Part2
 ### Day 6: [**Trash Compactor**](https://adventofcode.com/2025/day/6)
 **[Solution](./src/Day6)**
 
+### Day 7: [**Laboratories**](https://adventofcode.com/2025/day/7)
+**[Solution](./src/Day7)**
+
 ---
 
 ## Tools and Language
