@@ -80,6 +80,9 @@ java src.DayX.Part2
 ### Day 7: [**Laboratories**](https://adventofcode.com/2025/day/7)
 **[Solution](./src/Day7)**
 
+### Day 8: [**Playground**](https://adventofcode.com/2025/day/8)
+**[Solution](./src/Day8)**
+
 ---
 
 ## Tools and Language

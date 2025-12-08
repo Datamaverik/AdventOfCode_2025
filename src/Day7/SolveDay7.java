@@ -3,7 +3,7 @@ package Day7;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class SolveDay {
+public class SolveDay7 {
     private static final Scanner in = new Scanner(System.in);
     private static final ArrayList<String> grid = new ArrayList<>();
     private static ArrayList<ArrayList<Boolean>> vis = new ArrayList<>();
