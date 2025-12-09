@@ -83,6 +83,9 @@ java src.DayX.Part2
 ### Day 8: [**Playground**](https://adventofcode.com/2025/day/8)
 **[Solution](./src/Day8)**
 
+### Day 9: [**Movie Theater**](https://adventofcode.com/2025/day/9)
+**[Solution](./src/Day9)**
+
 ---
 
 ## Tools and Language
