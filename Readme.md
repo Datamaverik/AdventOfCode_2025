@@ -86,6 +86,9 @@ java src.DayX.Part2
 ### Day 9: [**Movie Theater**](https://adventofcode.com/2025/day/9)
 **[Solution](./src/Day9)**
 
+### Day 10: [**Factory**](https://adventofcode.com/2025/day/10)
+**[Solution](./src/Day10)**
+
 ---
 
 ## Tools and Language
