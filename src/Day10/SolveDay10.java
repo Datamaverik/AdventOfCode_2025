@@ -7,7 +7,6 @@ import com.google.ortools.linearsolver.MPSolver;
 import com.google.ortools.linearsolver.MPVariable;
 
 import java.util.ArrayList;
-import java.util.Map;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -17,8 +16,6 @@ public class SolveDay10 {
     private static final ArrayList<ArrayList<ArrayList<Integer>>> buttonConfig = new ArrayList<>();
     private static final ArrayList<String> requiredConfigs = new ArrayList<>();
     private static final ArrayList<ArrayList<Integer>> voltages = new ArrayList<>();
-
-    private static Map<String, Integer> memo;
 
     public static void main(String[] args){
         readInput();
