@@ -92,6 +92,9 @@ java src.DayX.Part2
 ### Day 11: [**Reactor**](https://adventofcode.com/2025/day/11)
 **[Solution](./src/Day11)**
 
+### Day 12: [**Reactor**](https://adventofcode.com/2025/day/12)
+**[Solution](./src/Day12)**
+
 ---
 
 ## Tools and Language
