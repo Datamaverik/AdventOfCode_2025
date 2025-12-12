@@ -71,7 +71,6 @@ public class SolveDay12 {
             for(int j = 0; j < size; j++)
                 requiredArea += required.get(i).get(j) * shapeArea.get(j);
 
-            System.out.println(requiredArea + " " + totalArea);
             if(requiredArea <= totalArea)
                 ans++;
         }
